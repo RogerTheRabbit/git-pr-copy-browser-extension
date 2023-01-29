@@ -11,5 +11,9 @@
       "matches": ["*://*/*"],
       "js": ["index.js"]
     }
-  ]
+  ],
+  "permissions": ["tabs"],
+  "icons": {
+    "512": "icon.png"
+  }
 }
