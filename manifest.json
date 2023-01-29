@@ -6,8 +6,10 @@
   "action": {
     "default_title": "GitHub Pr Copy"
   },
-  "content_scripts": {
-    "matches": ["https://git.*.com", "https://github.com"],
-    "js": ["index.js"]
-  }
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["index.js"]
+    }
+  ]
 }
