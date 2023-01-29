@@ -1,13 +1,13 @@
 {
-    "name": "GitHub PR Copy",
-    "version": "1.0.0",
-    "description": "",
-    "manifest_version": 3,
-    "action":{
-        "default_title": "GitHub Pr Copy"
-    },
-    "content_scripts": {
-        "matches": ["https://git.*.com","https://github.com"],
-        "js": ["index.js"]
-    }
+  "name": "GitHub PR Copy",
+  "version": "1.0.0",
+  "description": "",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "GitHub Pr Copy"
+  },
+  "content_scripts": {
+    "matches": ["https://git.*.com", "https://github.com"],
+    "js": ["index.js"]
+  }
 }
